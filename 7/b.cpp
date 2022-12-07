@@ -117,7 +117,6 @@ int main() {
     std::string input_string;
     node_ptr prev_node = std::make_shared<Node>();
     node_ptr current_node = std::make_shared<Node>();
-    Depth current_depth = 0;
 
     node_ptr root = std::make_shared<Node>("/", node_type::dir, 0, nullptr);
 
